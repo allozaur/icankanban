@@ -8,6 +8,12 @@ declare global {
 		// interface PageState {}
 		// interface Platform {}
 	}
+
+	interface KanbanLabel {
+		id: string;
+		name: string;
+		color: string;
+	}
 }
 
 export {};
